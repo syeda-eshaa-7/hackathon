@@ -1,0 +1,130 @@
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Personal Information */
+#personal-info {
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+#name {
+    font-size: 2em;
+    margin: 0;
+}
+
+#contact-details p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Section Headings */
+h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Education, Skills, and Work Experience */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li p {
+    margin: 3px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Skills Section */
+#skills {
+    margin-top: 20px;
+}
+
+#skills-list {
+    display: block;
+}
+
+#toggle-skills-btn {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#toggle-skills-btn:hover {
+    background-color: #3498db;
+}
+
+/* Work Experience Section */
+#work-experience ul li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#work-experience ul li p:first-child {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#work-experience ul li p:last-child {
+    color: #7f8c8d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 10px;
+    }
+
+    #name {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    #toggle-skills-btn {
+        width: 100%;
+    }
+}
